@@ -1,0 +1,90 @@
+:root{
+    --maincolor:#ff286e;
+}
+.header{
+    background-image: url('../imag/bg.jpg');
+    background-position: center center;
+}
+body{
+    height: 6000px;
+    background-image: url('../imag/light_dot.jpg');
+}
+.main-color{
+    color: var(--maincolor);
+}
+.header .icons{
+    width: 18%;
+}
+.header .icons i{
+    border: 1px solid #222;
+    transition: all 1s;
+}
+.header .icons i:hover  {
+    color: var(--maincolor);
+    border-color: white ;
+   
+}
+
+.navbar-dark .navbar-nav li:first-child a{
+    color: var(--maincolor);
+}
+.title h2{
+    font-size: 5rem;
+    color:#f1f1f1 ;
+}
+.title h3{
+    font-size: 2.5rem;
+}
+.services{
+    background-image: url('../imag/dark_dot.jpg');
+}
+.services .title h3{
+    color: #fff;
+}
+.services .title h2{
+    color: #222;
+}
+.services-item h3{
+    position: relative;
+}
+.services-item h3:after{
+    content:'';
+    background-color: var(--maincolor);
+    position: absolute;
+    top:40px;
+    left:40%;
+    width: 20%;
+    height: 4px;
+}
+.services-item{
+    position: relative;
+    
+}
+.services-item i{
+    border: 1px solid #fff;
+    transition: all 1s;
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    top: -35px;
+    left: 40%;
+    
+
+}
+.services-item  i:hover  {
+    color: var(--maincolor);
+    
+   
+}
+.portfolio{
+    background-image: url('../imag/light_dot.jpg');
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color:var(--maincolor);
+    background-color: transparent;
+}
+.nav-tabs .nav-link{
+    border:0px;
+    color: #000;
+    font-weight: 700;
+}
